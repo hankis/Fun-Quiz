@@ -19,7 +19,7 @@ app.get('/posts', (req, res) => {
   res.send(
     [{
       title: "Hello World!",
-      description: "Hi there! How are you?"
+      description: "Hi there! How are you?",
     }]
   )
 })
